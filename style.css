@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(./chess1.jpg);
+}
+main {
+  width: 680px;
+  height: 680px;
+  margin: 20px auto 0px;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 8px;
+  padding-top: 8px;
+  color: rgb(238, 238, 213);
+}
+#bord {
+  display: grid;
+  width: 544px;
+  height: 612px;
+  margin: 0px auto;
+}
+.radif {
+  height: 68px;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 68px;
+  height: 68px;
+  font-size: 60px;
+  background-color: rgb(187, 137, 44);
+  justify-items: center;
+  display: block;
+}
+.qa {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+.qb {
+  color: rgb(212, 212, 212);
+  font-weight: 300;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}
+.qs {
+  color: gold;
+  font-weight: 300;
+  background-color: rgba(12, 12, 135, 0.436);
+  border: 1px solid rgba(203, 162, 58, 0.995);
+}
+.move {
+  border: 4px solid rgb(189, 186, 207);
+}
+.kill {
+  border: 4px outset rgb(156, 0, 0);
+}
+.chose {
+  border: 3.5px solid rgb(255, 242, 0);
+}
+.freind {
+  border: 4px solid rgb(65, 96, 11);
+}
+.updat {
+  border: 3px solid rgb(146, 24, 183);
+}
